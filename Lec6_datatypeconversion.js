@@ -31,4 +31,22 @@ console.log(bolleanislog1);
 // if we want to convert empty boolean tit could be false or if we add some string it in it ccould be true let isLoggedin11 = "prathmesh";g
 
 // ****************************+++---+++*************************************
+// number and strring addition 
+
+console.log("1"+1)// 11
+
+console.log("1"+"1")// 11
+
+console.log("1"+1+1)// 111 frist considered string then convert all to string string=>num not possilbe thTS MAKE IT STRING
+console.log(1+1+"1")// 21 frist considered number thats add the make it num
+console.log(1+"1"+1)// 111
+// console.log(+true)// 1
+// console.log(true+)// error
+let a=1;
+for(a=1;a<=10;a){
+    console.log(++a)
+}
+
+
+
 
